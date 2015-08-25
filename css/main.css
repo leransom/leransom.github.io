@@ -1,10 +1,16 @@
 body{
 	background: url("http://static1.squarespace.com/static/52be36c5e4b03ae7cbd2287e/t/53a31451e4b056bf8ed9ea49/1403196553348/White+Geometric+background-01.png?format=1500w");
 	background-position: center;
-    background-size; cover;
+  background-size; cover;
 }
 h1,p{
 	color: #677575;
 	font-family: helvetica;
 	text-align: center;
+}
+#bottom_circle{
+  text-align: center; 
+  position: relative; 
+  top: -10%;           
+  transform: translateY(10%)
 }
