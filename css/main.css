@@ -8,9 +8,33 @@ h1,p{
 	font-family: helvetica;
 	text-align: center;
 }
-#bottom_circle{
+/*#bottom_circle{
   text-align: center; 
   position: relative; 
   top: -10%;           
   transform: translateY(10%)
+}*/
+
+
+
+.circle-outer, section{
+	float:left;
+/*	border:1px solid #000;*/
+	padding:20px;
+}
+
+.circle-outer{
+	margin:190px 0;
+}
+
+.circle-inner{
+	width:146px;
+	margin: 40px auto;
+}
+
+#main{
+	background-color: #fff;
+	width:734px;
+	margin:100px auto;
+
 }
