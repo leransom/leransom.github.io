@@ -1,0 +1,34 @@
+body{
+  background: url("http://img12.deviantart.net/ad5c/i/2015/251/5/2/stars_background_by_electronicanticle777-d98vabb.png");
+  background-size: cover;
+  color: rgba(255,255,255,.6);
+  font-family: Helvetica;
+  text-align: center;
+}
+h1{
+  font-weight: 100;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+  font-weight: 100;
+  text-align: center;
+}
+ul{
+  display: inline-block;
+  list-style-position: inside;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: left;
+}
+#slogan{
+  font-style: italic;
+}
+a{
+  color:rgba(255,255,255,.6);
+  font-weight: 100;
+  
+}
