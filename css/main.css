@@ -1,34 +1,56 @@
+html{
+  height:100%;
+ }
 body{
-  background: url("http://img12.deviantart.net/ad5c/i/2015/251/5/2/stars_background_by_electronicanticle777-d98vabb.png");
-  background-size: cover;
-  color: rgba(255,255,255,.6);
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-}
-h1{
-  font-weight: 100;
+background:url("http://img03.deviantart.net/7373/i/2014/174/7/4/texture_83_by_ninjarabbit_stock-d7nmcp2.jpg");
+min-height:100%;
+padding:0;
+margin:0;
+position:relative;
+padding-bottom:128px;
+background-size: cover;
 }
 img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
+  margin: 1em 1em 3em 1em;
+}
+.nav a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  float: left;
+  display: inline-block;
+  margin: 3em;
+  
+}
+li{
+  list-style: none;
+}
+footer{
+  clear: both;
+  position:absolute;
+  bottom:0px;
+  right: 7%;
+  height: 70px;
+}
+h1{
+  color: #fff;
+  font-family: "Raleway", sans-serif; 
+  float: left;
+  margin: 2em 1em 1em 1em;
+}
+#line{
+  position: absolute;
+  top: 150px;
+  left: 257px;
 }
 p{
-  font-weight: 100;
-  text-align: center;
-}
-ul{
-  display: inline-block;
-  list-style-position: inside;
-  font-size: 14px;
-  font-weight: 100;
-  text-align: left;
-}
-#slogan{
-  font-style: italic;
-}
-a{
-  color:rgba(255,255,255,.6);
-  font-weight: 100;
-  
+  clear:both;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 3em;
 }
