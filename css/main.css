@@ -2,7 +2,7 @@ html{
   height:100%;
  }
 body{
-background:url("http://img03.deviantart.net/7373/i/2014/174/7/4/texture_83_by_ninjarabbit_stock-d7nmcp2.jpg");
+background:url("http://orig15.deviantart.net/0da2/f/2015/278/e/8/background_image_by_electronicanticle777-d9c2xqr.jpg");
 min-height:100%;
 padding:0;
 margin:0;
@@ -46,6 +46,7 @@ h1{
   left: 257px;
 }
 p{
+  max-width: 650px;
   clear:both;
   color: #fff;
   font-family: "Raleway", sans-serif;
