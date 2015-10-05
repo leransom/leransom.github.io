@@ -27,12 +27,6 @@ img{
 li{
   list-style: none;
 }
-.content{
-  display: block;
-  margin: auto;
-  width: 50%;
-  transform:translateY(100px);
-}
 footer{
   clear: both;
   position:absolute;
