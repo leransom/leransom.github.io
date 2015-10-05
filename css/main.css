@@ -27,12 +27,19 @@ img{
 li{
   list-style: none;
 }
+.content{
+  display: block;
+  margin: auto;
+  width: 50%;
+  transform:translateY(100px);
+}
 footer{
   clear: both;
   position:absolute;
   bottom:0px;
   right: 7%;
-  height: 70px;
+  height: 5px;
+  transform: translateY(125px);
 }
 h1{
   color: #fff;
@@ -46,7 +53,6 @@ h1{
   left: 257px;
 }
 p{
-  max-width: 650px;
   clear:both;
   color: #fff;
   font-family: "Raleway", sans-serif;
