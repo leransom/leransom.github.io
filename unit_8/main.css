@@ -10,7 +10,7 @@ body{
 }
 ul{
   list-style: none;
-  transform:translateY(90%);
+  transform:translateY(70%);
   }
 .group:after {
   content: "";
