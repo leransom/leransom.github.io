@@ -1,0 +1,67 @@
+html{
+  height:100%;
+}
+body{
+  background: url("http://img12.deviantart.net/ad5c/i/2015/251/5/2/stars_background_by_electronicanticle777-d98vabb.png");
+  background-size: cover;
+  color: rgba(255,255,255,.4);
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+}
+ul{
+  list-style: none;
+  transform:translateY(90%);
+  }
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img{
+  float:left;
+  max-width:20%;
+  padding:1.7%; 
+}
+a{
+  text-decoration:none;
+}
+#footer{
+  font-size: 1em;
+  margin-left:auto;
+  margin-right:auto;
+  transform: translateY(1750%);
+}
+@media only screen and (max-width:480px) {
+  ul{
+    height:100%;
+    width:100%;
+    transform: translateX(-8.5%);
+  }
+  img{
+    display:inline-block;
+    float:none;
+  }
+  #footer{
+  transform:translateY(200%);
+  margin-left:auto;
+  margin-right:auto;
+  }
+  @media only screen and (max-width:320px){
+    ul{
+      height:100%;
+      width:100%;
+      transform: translateX(-13.5%);
+    }
+    img{
+    display:inline-block;
+    float:none;
+    size: 5em;
+    max-width:35%;
+}
+  #footer{
+     font-size: .8em;
+     margin-left:auto;
+     margin-right:auto;
+     transform: translateY(200%);
+    }
+  }
