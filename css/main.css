@@ -5,6 +5,8 @@ body{
   background: #ffffff;
   background-size: cover;
   font-family: 'Helvetica', sans-serif;
+  height: 100%;
+  position:relative;
   text-align: center;
 }
 h1{
@@ -15,27 +17,32 @@ ul{
   list-style: none;
   transform:translateY(70%);
   }
-pubs{
-  color:black;
-  list-style:none;
-  text-align:left;
-}
-#chapbooks{
-  transform: translate(-22%,200%);
-}
-#meat{
-    transform:translate(-28%,400%);
-  }
-#poems{
-  transform:translate(-24%,400%);
-}
 img{
   float:left;
-  width:20%;
-  padding:1.7%; 
+  width:35%;
+  padding:2%; 
 }
 a{
   text-decoration:none;
+}
+p{
+  color: #000000;
+  float:left;
+  max-width: 61%;
+  padding-top: 9%;
+  text-align: justify;
+}
+footer{
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+  }
+footer img{
+  float:none;
+  width:75%;
+  display:block;
+  margin:auto;
 }
 .group:after{
   content: "";
@@ -43,21 +50,19 @@ a{
   clear: both;
 }
 #biopic{
-  float:left;
-  width:200%;
-  transform:translate(1%,55%);
+  width:90%;
+  margin:20% auto;
 }
-p{
-  color: #000000;
-  max-width: 40%;
-  text-align: justify;
-  transform: translate(125%,-20%);
-}
-footer{
-  display:inline-block;
-  height:100%;
-  transform:translate(75%,-50%) scale(2,2);
+#meat{
+    transform:translate(-28%,400%);
   }
+#poems{
+  transform:translate(-24%,400%);
+  }
+  #chapbooks{
+  transform: translate(-22%,200%);
+}
+
 @media only screen and (max-width:480px) {
   ul{
     height:100%;
