@@ -1,0 +1,62 @@
+html{
+  height:100%;
+}
+body{
+  background: #ffffff;
+  background-size: cover;
+  color: rgba(255,255,255,.4);
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+}
+h1{
+  color: #000000;
+  transform: translate(-22%,200%);
+}
+ul{
+  list-style: none;
+  transform:translateY(70%);
+  }
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img{
+  float:left;
+  padding:1.7%; 
+}
+a{
+  text-decoration:none;
+}
+#biopic{
+  float:left;
+  transform:translate(30%,300%);
+}
+p{
+  color: #000000;
+  max-width: 40%;
+  text-align: justify;
+  transform: translate(125%,30%);
+}
+@media only screen and (max-width:480px) {
+  ul{
+    height:100%;
+    width:100%;
+    transform: translateX(-8.5%);
+  }
+  img{
+    display:inline-block;
+    float:none;
+  }
+  @media only screen and (max-width:320px){
+    ul{
+      height:100%;
+      width:100%;
+      transform: translateX(-13.5%);
+    }
+    img{
+    display:inline-block;
+    float:none;
+    size: 5em;
+    max-width:35%;
+    }
