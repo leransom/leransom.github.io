@@ -19,7 +19,7 @@ ul{
   }
 img{
   float:left;
-  width:35%;
+  width:21%;
   padding:2%; 
 }
 a{
@@ -29,7 +29,7 @@ p{
   color: #000000;
   float:left;
   max-width: 61%;
-  padding-top: 9%;
+  padding-top: 5%;
   text-align: justify;
 }
 footer{
@@ -50,8 +50,10 @@ footer img{
   clear: both;
 }
 #biopic{
-  width:90%;
-  margin:20% auto;
+  float: left;
+  position: relative;
+  padding-top: 15%;
+  right: -6%; 
 }
 #meat{
     transform:translate(-28%,400%);
