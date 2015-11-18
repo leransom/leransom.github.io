@@ -55,14 +55,21 @@ footer img{
   padding-top: 15%;
   right: -6%; 
 }
+#chapbooks{
+padding-right: 50%;
+padding-top: 10%;
+}
 #meat{
-    transform:translate(-28%,400%);
+padding-right: 58%;
   }
 #poems{
-  transform:translate(-24%,400%);
-  }
-  #chapbooks{
-  transform: translate(-22%,200%);
+padding-right: 54%;
+padding-top:10%;
+}
+#poempubs{
+padding-bottom: -90%;
+padding-left: 18%;
+text-align: left;
 }
 
 @media only screen and (max-width:480px) {
