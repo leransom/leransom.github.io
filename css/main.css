@@ -62,13 +62,17 @@ padding-top: 10%;
 #meat{
 padding-right: 58%;
   }
+#nonfiction{
+padding-right: 48%;
+padding-top: 10%;
+}
 #poems{
-padding-right: 54%;
+padding-right: 56%;
 padding-top:10%;
 }
 #poempubs{
-padding-bottom: -90%;
 padding-left: 18%;
+transform:translateY(10%);
 text-align: left;
 }
 
