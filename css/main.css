@@ -65,8 +65,9 @@ padding-top: 10%;
   transform:translateX(20%);
 }
 #mail{
-  padding-top: 5%;
-  transform:scale(50%);
+  padding-top: 10%;
+  padding-right: 15%;
+  transform:scale(.5,.5);
 }
 #meat{
 padding-right: 58%;
