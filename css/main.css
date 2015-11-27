@@ -59,10 +59,7 @@ footer img{
 padding-right: 50%;
 padding-top: 10%;
 }
-#contact{
-  padding-top: 50%;
-  padding-right: 50%;
-}
+
 #meat{
 padding-right: 58%;
   }
@@ -81,6 +78,11 @@ padding-top:10%;
 padding-left: 18%;
 transform:translateY(10%);
 text-align: left;
+}
+#twitter{
+  background-color: blue;
+  padding-top: 50%;
+  padding-right: 50%;
 }
 
 @media only screen and (max-width:480px) {
