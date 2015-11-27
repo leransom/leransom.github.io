@@ -65,7 +65,7 @@ padding-top: 10%;
   transform:translateX(10%);
 }
 #mail{
-  padding-left: 5%;
+  margin-left: 5%;
   transform:scale(.5,.5);
 }
 #meat{
@@ -88,7 +88,7 @@ transform:translateY(10%);
 text-align: left;
 }
 #twitter{
-  padding-right: 5%;
+  margin-right:5%;
   transform:scale(.5,.5);
 }
 @media only screen and (max-width:480px) {
