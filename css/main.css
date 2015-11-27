@@ -89,7 +89,7 @@ transform:translateY(10%);
 text-align: left;
 }
 #twitter{
-  padding-top: 5%;
+  padding-top: 15%;
   transform:scale(.5,.5);
 }
 @media only screen and (max-width:480px) {
