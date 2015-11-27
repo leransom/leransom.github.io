@@ -61,7 +61,7 @@ padding-top: 10%;
 }
 #contact{
   position:absolute;
-  left:50%;
+  right:50%;
   transform:translateX(-50%);
 }
 #meat{
