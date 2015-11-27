@@ -60,13 +60,11 @@ padding-right: 50%;
 padding-top: 10%;
 }
 #contact{
-  float:left;
   margin-left: auto;
   padding-top: 25%;
   transform:translateX(20%);
 }
 #mail{
-  padding-top: 10%;
   padding-right: 15%;
   transform:scale(.5,.5);
 }
