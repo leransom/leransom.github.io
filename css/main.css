@@ -66,6 +66,7 @@ padding-top: 10%;
 }
 #mail{
   padding-top: 5%;
+  transform:scale(50%);
 }
 #meat{
 padding-right: 58%;
