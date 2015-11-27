@@ -90,7 +90,7 @@ text-align: left;
 }
 #twitter{
   padding-top: 15%;
-  padding-right: 5%;
+  padding-right: 25%;
   transform:scale(.5,.5);
 }
 @media only screen and (max-width:480px) {
