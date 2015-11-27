@@ -61,7 +61,6 @@ padding-top: 10%;
 }
 #contact{
   margin-left: auto;
-  margin-right: auto;
   padding-top: 25%;
   transform:translateX(20%);
 }
@@ -86,6 +85,9 @@ padding-top:10%;
 padding-left: 18%;
 transform:translateY(10%);
 text-align: left;
+}
+#twitter{
+  padding-right: 5%;
 }
 @media only screen and (max-width:480px) {
   ul{
