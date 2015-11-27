@@ -59,6 +59,11 @@ footer img{
 padding-right: 50%;
 padding-top: 10%;
 }
+#contact{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+}
 #meat{
 padding-right: 58%;
   }
