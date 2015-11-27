@@ -62,7 +62,7 @@ padding-top: 10%;
 #contact{
   margin-left: auto;
   padding-top: 25%;
-  transform:translateX(50%);
+  transform:translateX(-50%);
 }
 #mail{
   transform:scale(.5,.5);
