@@ -62,9 +62,10 @@ padding-top: 10%;
 #contact{
   margin-left: auto;
   padding-top: 25%;
-  transform:translateX(5%);
+  transform:translateX(10%);
 }
 #mail{
+  padding-left: 5%;
   transform:scale(.5,.5);
 }
 #meat{
